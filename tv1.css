@@ -1,0 +1,89 @@
+@media only screen and (min-width:1400px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+  .container {
+    max-width: 1399px;
+  }
+}
+@media only screen and (min-width:992px) and (max-width:1199px) {
+  .container {
+    max-width: 1199px;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+  .container {
+    max-width: 991px;
+  }
+}
+
+.custom-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (min-width:1400px) {
+  .custom-container {
+    max-width: 1400px;
+  }
+}
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+  .custom-container {
+    max-width: 1399px;
+  }
+}
+@media only screen and (min-width:992px) and (max-width:1199px) {
+  .custom-container {
+    max-width: 1199px;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+  .custom-container {
+    max-width: 991px;
+  }
+}
+@media only screen and (max-width:767px) {
+  .custom-container {
+    max-width: 767px;
+  }
+}
+@media only screen and (min-width:480px) and (max-width:767px) {
+  .custom-container {
+    max-width: 767px;
+  }
+}
+@media only screen and (min-width:576px) and (max-width:767px) {
+  .custom-container {
+    max-width: 767px;
+  }
+}  
+
+.element-heading-wrapper i {  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #5F9EA0;
+  }
+  
+.bg-dark {
+  background-color: #BDB76B !important;
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+  
+.live {font-size:11px;margin-top:1px;text-align:right;color:#fff;float:right;margin-right:20px;border-radius:50px;background:red;padding:1px 7px 0 5px;}
+.live2 {font-size:11px;margin-top:1px;text-align:right;color:transparent;float:right;margin-right:20px;border-radius:50px;background:transparent;padding:1px 7px 0 5px;}
+.game-itme {margin-bottom:10px;}
+.time-is-captitle2 {margin-bottom:0px;}
+  
